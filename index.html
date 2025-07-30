@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Букмекерские конторы</title>
+
+
+   <!-- fonts -->
+
+   <link rel="stylesheet" href="./fonts/inter/stylesheet.css">
+   <link rel="stylesheet" href="./fonts/rubik/stylesheet.css">
+   <link rel="stylesheet" href="./fonts/muller/stylesheet.css">
+   <link rel="stylesheet" href="./fonts/roboto/stylesheet.css">
+
+   <!-- fancybox -->
+   <link rel="stylesheet" href="./css/fancybox.css">
+   <script src="./js/fancybox.umd.js"></script>
+
+   <link rel="stylesheet" href="./css/style.css">
+
+   <!--  -->
+
+</head>
+
+<body>
+   <div class="loadingscreen mainscreen">
+      <div class="loading"></div>
+   </div>
+   <div class="wrapper">
+
+      <div class="main">
+         <div class="container">
+            <div class="main__wrapper">
+               <div class="main__header">
+                  <h1 class="title main__title">Топ букмекерских контор</h1>
+                  <div class="dots">
+                     <span></span>
+                  </div>
+               </div>
+
+               <div class="main__body">
+                  <div class="main__tabwrapper">
+                     <a href="#" class="main__tab active " data-sort="general_rating">Народный рейтинг</a>
+                     <a href="#" class="main__tab" data-sort="editors_rating">Рейтинг редакции</a>
+                     <a href="#" class="main__tab" data-sort="bonus_value">Рейтинг по бонусу</a>
+                     <a href="#" class="main__tab" data-sort="safe_rating">Рейтинг по надежности</a>
+                  </div>
+                  <div class="main__listing">
+                     <div class="loadingscreen listingscreen">
+                        <div class="loading"></div>
+                     </div>
+                     <div class="main__item">
+                        <div class="main__logo">
+                           <img src="./img/logo1.png" alt="">
+                           <div class="main__verified">
+                              <img src="./img/verified.png" alt="">
+                           </div>
+
+                        </div>
+                        <div class="main__rating">
+                           <div class="main__ratingwrap" data-rate="4.7">
+                              <div class="mask"></div>
+                              <img src="./img/star.svg" alt="" class="star">
+                              <img src="./img/star.svg" alt="" class="star">
+                              <img src="./img/star.svg" alt="" class="star">
+                              <img src="./img/star.svg" alt="" class="star">
+                              <img src="./img/star.svg" alt="" class="star">
+                           </div>
+                           <span class="main__rating-val">4.7</span>
+                        </div>
+                        <div class="main__chat">
+                           <img src="./img/chat.svg" alt="">
+                           <span class="main__chat-val">321</span>
+                        </div>
+                        <div class="main__bonus">
+                           <div class="main__bonus-text">Без депозита</div>
+                           <div class="main__bonus-val">
+                              <img src="./img/gift.svg" alt=""><span>101</span>
+                           </div>
+                        </div>
+                        <div class="main__links">
+                           <a href="" class="main__link main__link-outer">Обзор</a>
+                           <a href="" class="main__link main__link-inner">Сайт</a>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+               <div class="main__footer">
+                  <a href="" class="main__link-footer"><span>Смотреть дальше </span><span class="_mobile">Смотреть
+                        полный рейтинг</span><svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z"
+                           fill="#262F56" />
+                     </svg></a>
+                  <a href="#aboutpopup" data-fancybox class="main__link-info">Как формируется рейтинг?</a>
+               </div>
+
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+
+   <div class="popup" id="aboutpopup">
+      <h2 class="title popup__title">Как формируется рейтинг?</h2>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nostrum, optio unde mollitia accusamus, alias
+      recusandae, voluptates doloremque maxime eaque et repudiandae a eligendi totam placeat aliquid officia ut eum.
+   </div>
+   <script src="./js/info.js"></script>
+   <script src="./js/script.js"></script>
+
+</body>
+
+</html>
